@@ -1,7 +1,0 @@
-human_tb_stromal_interface/
-└── qupath-interaction/
-    ├── README.md
-    ├── sub_immCPI_calculation.groovy
-    ├── tCPI_calculation.groovy
-    ├── visual.groovy
-    └── labels.groovy
