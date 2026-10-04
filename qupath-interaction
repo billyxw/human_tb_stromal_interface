@@ -1,0 +1,4 @@
+qupath/README.md
+# QuPath scripts
+
+Custom Groovy scripts used for cell-level spatial analysis, annotation and visualization in QuPath.
