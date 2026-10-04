@@ -10,14 +10,23 @@ This repository provides custom scripts and analysis code developed for study-sp
 
 ## Included scripts
 
-### QuPath visualization
+### QuPath interaction
 
-Custom Groovy scripts are provided for spatial validation of clustering results in QuPath.
+Custom Groovy scripts are provided for lesion-level spatial-index calculation and spatial validation of clustering results in QuPath.
 
-These scripts map cell-level annotations, including Leiden cluster assignments, back to segmented cells using unique cell identifiers, enabling direct visualization and validation of clustering results within the original tissue sections.
+These scripts enable automated calculation of spatial indices across individual lesion annotations, map cell-level annotations including Leiden cluster assignments back to segmented cells using unique cell identifiers, and support direct visualization and validation of clustering results within the original tissue sections.
+
+### SPACEc analysis
+Custom Python notebooks are provided for tissue-context mapping and spatial interaction analysis using SPACEc.
+
+These workflows construct local tissue-context maps, visualize relationships among selected spatial domains, and quantify pariwise domain interactions across multiple samples.
+
+### Spatial transriptomic analysis
+Custom Python notebooks are provided for downstream analysis of Visium HD spatial transcriptomic data.
+
+These wrokflows include boundary-resolved transcriptional analysis across the selected histology annotaed region interface, regional characterization of NMF-derived spatial ligand-receptor programs.
 
 ## Data and software
 
 Public datasets and software packages used in the study are described in the manuscript Methods.
 
-Data generated in this study will be made available through the repositories and accession numbers specified in the manuscript.
