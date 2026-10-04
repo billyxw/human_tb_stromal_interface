@@ -26,6 +26,11 @@ Custom Python notebooks are provided for downstream analysis of Visium HD spatia
 
 These wrokflows include boundary-resolved transcriptional analysis across the selected histology annotaed region interface, regional characterization of NMF-derived spatial ligand-receptor programs.
 
+### scRNA-seq integration
+Custom Python notebook is provided for cross-tissue integration and comparative analysis of public scRNA-seq datasets.
+
+This workflow include scVI-based integration of pulmonary fibroblast with lymph-node stromal cells and nearest neighbor enrichment analysis to assess cross-tissue stromal state similarity.
+
 ## Data and software
 
 Public datasets and software packages used in the study are described in the manuscript Methods.
